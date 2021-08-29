@@ -1,0 +1,128 @@
+/*
+Some important selectors
+ *{} ------ (star)selects every elememt in the page
+ li a{} --- (descendant)here...selects every anchor tags inside every li tags
+ h2+p{} --- (adjacent)here...selects every p tags next to the h2 tags
+ a[href="https://www.google.com"]{} --- (attribute)here...selects every https://www.google.com 
+ input[type="checkbox"]{} ------------- (attribute)here...selects evry checkbox
+ li: nth-of-type(3){} ----------------- (nth-of-type)here...selects every 3rd li
+ li: nth-of-type(even){} ----------------- (nth-of-type)here...selects every even li
+*/
+
+button {
+	color: #000000;
+	background-color: #f28fd9;
+	border-radius: 50px;              /* for comments in css */
+}
+
+
+h3{
+	color: #2c4ee6;
+}
+
+h5,h6{
+	background-color: #9e9aed;
+	width: 100px;
+}
+
+
+
+
+
+div{
+	background-color: #e8a9eb;
+	color: #1724d4;                            /*font color*/
+	font-family: 'Roboto Mono', monospace;     /*font style*/
+	font-size: 20px;
+	width: 550px; 
+	padding: 15px;
+	border-radius: 40px;
+
+}
+
+.elon{
+	background-color: #afb4fa;
+	color: #1724d4;
+	font-family: 'Roboto Mono', monospace;
+	width: 550px; 
+	padding: 15px;
+	border-radius: 40px;
+
+}
+
+.elon:hover{
+	background-color: #f2b3ae;
+}
+
+
+.iron{
+	background-color: #E88EB9;
+	border-width: 3px;
+	border-style: dashed;
+	border-color: black;
+	border-radius: 25px;
+	text-decoration: line-through;
+	width: 800px;
+	padding: 10px;
+}
+
+.iron:hover{
+	background-color: #DE4097;
+}
+
+
+
+
+.third{
+	background-color: #bbb7eb;
+}
+
+.fourth{
+	background-color: #ebc1b7;
+}
+
+#fifth{
+	background-color: #dead52;
+	width: 82px;
+	
+}
+
+.fab{
+	font-size: 30px;
+	color: #0b7bde;
+}
+
+.fab:hover{
+	color: #aa1ae8;
+}
+
+span {
+	font-size: 2.0em;     /* em generaly means.....it will take the value as n times the parent element..
+	                      here font-size: 2.0em means twice the font-size of <p class="letter"> element 
+	                      because <p class="letter"> is the parent element for span */
+}
+
+.letter {
+	letter-spacing: 2px;
+	font-weight: 900;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 3;
+}
+
+.boxes {
+	border-width: 5px 10px;
+	border-style: solid groove dashed double;
+	border-color: red green yellow blue;
+	font-weight: 900;
+	width: 100px;
+	margin: auto;
+}
+
+
+
+
+
+
